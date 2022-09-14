@@ -1,0 +1,67 @@
+<p>news works!</p>
+
+<h2>我是一个新闻组件</h2>
+
+<hr>
+
+<h1>{{title}}</h1>
+
+<h3>{{msg}}</h3>
+<h4>{{username}}</h4>
+
+<h5>{{student}}</h5>
+
+<h6>{{userinfo.age}}</h6>
+
+<h6>{{message}}</h6>
+
+<div title="title">
+    my title
+</div>
+
+<div [title]="student">
+    test
+</div>
+
+
+<div [innerHTML]="content"></div>
+
+1+2={{1+2}}
+
+<ul>
+<li *ngFor="let item of arr">
+
+    {{item}}
+</li>
+
+</ul>
+
+<ul>
+    <li *ngFor="let item of userlist">
+    
+        {{item.username}}--- {{item.age}}
+    </li>
+    
+    </ul>
+
+<ul>
+    <li *ngFor="let item of cars">
+    <h2>{{item.car}}</h2>
+    <ul>
+        <li *ngFor="let pin of item.list">
+        
+            {{pin.title}}--- {{pin.price}}
+        </li>
+        
+        </ul>
+    </li>
+    
+    </ul>
+
+
+
+
+
+
+
+
