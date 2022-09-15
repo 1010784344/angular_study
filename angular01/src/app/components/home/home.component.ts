@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
 
   public today= new Date();
 
-  attr = 'wed'
+  attr = 'blue'
 
   
   constructor() { 
@@ -32,9 +32,11 @@ export class HomeComponent implements OnInit {
     alert(this.today)
   }
 
+  title = 'one'
+
   setdata(){
 
-    this.attr = "mon"
+    this.title = "mon"
 
   }
 

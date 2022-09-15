@@ -61,6 +61,8 @@ public cars=[{
 
 
   constructor() { 
+
+    // 修改变量的值
     this.message = 'everywhere'
 
     console.log(this.msg)

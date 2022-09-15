@@ -1,13 +1,20 @@
 <p>home works!</p>
 
- <!-- <img src="assets/images/aj3.png"> -->
+属性 src 是静态数据(图片是本地一个路径)
+<br>
+<br>
+ <img src="assets/images/aj3.png">
 
 <br>
 <br>
- <!-- <img [src]="imgurl"/> -->
-
-
-<!-- <ul>
+属性 src 是动态数据(使用ts文件定义的变量)
+ <img [src]="imgurl"/>
+ <br>
+ <br>
+ angular 模板里面的数据循环
+ <br>
+<br>
+<ul>
     <li *ngFor="let item of list;let key=index;">
             {{key}}--{{item}}
     </li>
@@ -15,30 +22,33 @@
 
 </ul>
 
+<br>
+<br>
 <div class="red">
     ngclass test
 </div>
 
 <div [ngClass]="{'red': false}">
     ngclass ssss
-</div> -->
+</div>
 
-<!-- <p style="color :red">我是一个p标签</p> -->
-
-
-<!-- <p [ngStyle]="{'color': attr}">我是一个p标签</p> -->
-
-<!-- <p>{{today|date:'yy-MM-dd'}}</p>
+<p style="color :red">我是一个p标签</p> 
 
 
-<p>{{attr}}</p> -->
+<p [ngStyle]="{'color': attr}">我是一个p标签</p>
+<p>{{attr}}</p>
 
-<!-- <button (click)="expression"='run()'>执行事件</button> -->
-
-<!-- <button (click)="run()">执行事件</button>
 <br>
 <br>
-<button (click)="setdata()">修改数据</button>
+管道测试
+<p>{{today|date:'yy-MM-dd'}}</p>
+
+
+
+<button (click)="run()">执行事件</button>
+<br>
+<br>
+{{title}}<button (click)="setdata()">修改数据</button>
 <br>
 <br>
 keydown
@@ -49,11 +59,6 @@ keyup
 <input type="text" (keyup)="keytest($event)">
 
 <br>
-<br>
-<br>
-<br>
-<button (click)="myrun($event)">执行方法获取事件对象</button>
-<br> -->
 <br>
 <br>
 双向数据绑定
