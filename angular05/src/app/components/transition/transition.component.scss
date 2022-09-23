@@ -1,0 +1,27 @@
+
+
+
+#aside{
+
+    width: 200px;
+    height: 100%;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    background: #000;
+    color: #fff;
+
+    // 侧边栏向右隐藏
+    transform: translate(100%,0);
+
+    // 侧边栏渐变效果
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
