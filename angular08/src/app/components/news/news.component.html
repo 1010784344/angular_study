@@ -1,0 +1,45 @@
+<p>news works!</p>
+
+
+<button (click)="getData()"> get 请求数据</button>
+
+
+<br>
+<br>
+
+<button (click)="postData()"> post 提交数据</button>
+
+
+<br>
+<br>
+
+<button (click)="getJsonpData()"> 通过 jsonp 获取服务器数据（跨域的一种解决方案）</button>
+
+<br>
+<br>
+
+<button (click)="getAxiosData()"> 通过第三方获取服务器数据</button>
+
+<br>
+<br>
+<hr>
+
+<br>
+
+<ul>
+
+<li *ngFor="let item of list">{{item.title}}</li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
