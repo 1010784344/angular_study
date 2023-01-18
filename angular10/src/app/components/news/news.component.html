@@ -1,0 +1,35 @@
+<p>news works!</p>
+
+<br>
+<br>
+
+<!-- <h2>get 传值</h2>
+
+
+<ul>
+
+    <li *ngFor="let item of list; let key=index;">
+
+        <a [routerLink]="[ '/newscontent']" [queryParams]="{aid:key}">{{key}}--{{item}}</a>
+
+    </li>
+
+
+</ul> -->
+
+
+
+
+<h2>动态路由 传值</h2>
+
+
+<ul>
+
+    <li *ngFor="let item of list; let key=index;">
+
+        <a [routerLink]="[ '/newscontent', key ]">{{key}}--{{item}}</a>
+
+    </li>
+
+
+</ul>
